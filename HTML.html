@@ -1,0 +1,113 @@
+
+    <html>
+    <head>
+        <title>Final Project Report</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+                line-height: 1.6; 
+            }
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+            h2 {
+                color: #444;
+                border-bottom: 2px solid #ccc;
+                padding-bottom: 5px;
+            }
+            table {
+                width: 50%;
+                margin: 20px auto;
+                border-collapse: collapse;
+            }
+            table, th, td {
+                border: 1px solid #ddd;
+            }
+            th, td {
+                padding: 10px;
+                text-align: left;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+            .center {
+                text-align: center;
+            }
+            img {
+                display: block;
+                margin: 20px auto;
+                max-width: 80%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Final Project Report</h1>
+
+        <h2>Dataset Information</h2>
+        <p><b>File Name:</b> .\Car_sales_no_header.csv</p>
+        <p><b>Column Index:</b> 2</p>
+        <p><b>Column Name:</b> 16.919</p>
+
+        <h2>Dataset Statistics</h2>
+        <table>
+            <tr><th>Statistic</th><th>Original Dataset</th><th>Outliers</th><th>Non-Outliers</th></tr>
+            
+            <tr>
+                <td>Min</td>
+                <td>0.11</td>
+                <td>155.787</td>
+                <td>0.11</td>
+            </tr>
+            
+            <tr>
+                <td>Max</td>
+                <td>540.561</td>
+                <td>540.561</td>
+                <td>145.519</td>
+            </tr>
+            
+            <tr>
+                <td>Mean</td>
+                <td>53.22935256410257</td>
+                <td>238.30508333333333</td>
+                <td>37.806375</td>
+            </tr>
+            
+            <tr>
+                <td>Median</td>
+                <td>30.073</td>
+                <td>223.8555</td>
+                <td>26.9185</td>
+            </tr>
+            
+            <tr>
+                <td>Standard Deviation</td>
+                <td>68.18657081650028</td>
+                <td>102.47222861071664</td>
+                <td>33.43533939208612</td>
+            </tr>
+            
+            <tr>
+                <td>IQR</td>
+                <td>54.03475</td>
+                <td>N/A</td>
+                <td>N/A</td>
+            </tr>
+        </table>
+
+        <h2>Histograms & Boxplots</h2>
+        <div class="center">
+            <h3>Original Dataset</h3>
+            <img src="original_combined_plot.png" alt="Original Combined Plot">
+
+            <h3>Outliers</h3>
+            <img src="outliers_combined_plot.png" alt="Outliers Combined Plot">
+
+            <h3>Non-Outliers</h3>
+            <img src="non_outliers_combined_plot.png" alt="Non-Outliers Combined Plot">
+        </div>
+    </body>
+    </html>
+    
