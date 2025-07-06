@@ -24,7 +24,7 @@ Detection on a specified column, and splits the dataset into outliers and non-ou
 - Jinja2 for creating dynamic web pages and rendering text files.
 - Matplotlib for creating static, animated, and interactive visualizations in Python.
 
-## Steps
+### Steps
 - Start by importing essential libraries
 - Command-Line Argument Handling
 - Read the CSV File
@@ -35,3 +35,15 @@ Detection on a specified column, and splits the dataset into outliers and non-ou
 - Generate Histograms and Boxplots
 - Generate an HTML Report
 - Save CSV Files
+
+### Screenshots 
+
+- Statistics of the dataset: 
+
+![image](https://github.com/user-attachments/assets/a346ea31-d474-4580-8c25-dc474f5d12ec)
+
+- Simulated Histograms & Boxplots:
+
+![image](https://github.com/user-attachments/assets/c4444340-518f-41ab-ba1b-d9fb4d100d93)
+
+
