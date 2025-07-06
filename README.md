@@ -70,3 +70,9 @@ This Python program:
 - `non_outliers.csv`: Contains clean data
 - `report.html`: A styled HTML report with stats and plots
 
+## ⚙️ How to Run
+
+```bash
+python detect_outliers.py input.csv 2
+
+
