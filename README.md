@@ -1,49 +1,72 @@
-# Project Name 
-# HTML-report-Generation
-IQR Outlier Detection, Data Splitting, and HTML Report Generation
+# 📊 HTML Report Generation with IQR Outlier Detection
 
-## Objective
-Developed a Python program that takes a CSV file as input, performs the Interquartile Range (IQR) outlier analysis 
-Detection on a specified column, and splits the dataset into outliers and non-outliers. This program will generate an HTML report that contains: the name of the file, column index (and column name if there is a header), summary statistics, histograms, and boxplots for the original, outlier, and non-outlier subsets. Outlier and non-outlier subsets of the dataset must be saved as separate CSV files. 
+## 📌 Project Objective
 
-### Skills Learned
+This Python program:
+- Accepts a CSV file as input
+- Performs Interquartile Range (IQR) outlier analysis on a selected column
+- Splits the dataset into outliers and non-outliers
+- Generates an interactive **HTML report** with:
+  - File and column information
+  - Summary statistics
+  - Histograms and boxplots for all subsets
+- Saves the outlier and non-outlier subsets into separate CSV files
 
-- Learned how to analyze CSV files using Python code
-- Developed a command-line tool to tackle dataset preprocessing and outlier analysis efficiently.
-- Experience with loading, processing, and exporting data in CSV format.
-- Ability to calculate key statistics such as mean, median, standard deviation, and IQR.
-- Skilled in handling data through libraries like pandas and numpy.
-- Created histograms and boxplots to visually analyze data subsets, demonstrating understanding of data visualization principles.
-- Developed dynamic HTML reports programmatically using Python, incorporating data summaries and visualizations.
+---
 
-### Libraries Used
+## 🧠 Skills Learned
 
-- Pandas for data manipulation and analysis.
-- sys for system-specific parameters and functions.
-- Numpy for numerical computations.
-- Jinja2 for creating dynamic web pages and rendering text files.
-- Matplotlib for creating static, animated, and interactive visualizations in Python.
+- Parsing and preprocessing CSV files using Python
+- CLI-based tool development for data analysis tasks
+- Outlier detection using the IQR method
+- Generating statistical summaries: mean, median, std, IQR
+- Creating plots using `matplotlib`
+- HTML report generation with `Jinja2` templating
+- Exporting datasets as new CSV files (outliers/non-outliers)
 
-### Steps
-- Start by importing essential libraries
-- Command-Line Argument Handling
-- Read the CSV File
-- Extract the Specified Column
-- Perform IQR Outlier Detection
-- Calculate Summary Statistics
-- Save Outliers and Non-Outliers to CSV
-- Generate Histograms and Boxplots
-- Generate an HTML Report
-- Save CSV Files
+---
 
-### Screenshots 
+## 🧰 Libraries & Technologies
 
-- Statistics of the dataset: 
+- `pandas`: Data manipulation
+- `numpy`: Numerical calculations
+- `matplotlib`: Data visualization (boxplots, histograms)
+- `jinja2`: HTML templating
+- `sys`: Command-line argument handling
 
-![image](https://github.com/user-attachments/assets/a346ea31-d474-4580-8c25-dc474f5d12ec)
+---
 
-- Simulated Histograms & Boxplots:
+## 🚀 Steps Performed
 
-![image](https://github.com/user-attachments/assets/c4444340-518f-41ab-ba1b-d9fb4d100d93)
+1. **Import required libraries**
+2. **Read command-line arguments**
+3. **Load CSV file**
+4. **Extract target column**
+5. **Perform IQR-based outlier detection**
+6. **Calculate summary statistics**
+7. **Split data into outliers and non-outliers**
+8. **Generate boxplots and histograms**
+9. **Create and save a dynamic HTML report**
+10. **Export filtered datasets to CSV**
 
+---
+
+## 🖼️ Screenshots
+
+### 📈 Dataset Summary
+![image](https://github.com/user-attachments/assets/6a0b537f-6abb-4f53-aa11-41e069daa846)
+
+
+### 📉 Histograms & Boxplots
+![image](https://github.com/user-attachments/assets/3fa3af29-2cb4-49f3-94c0-313bd81e9f7e)
+
+
+
+---
+
+## 📂 Output Files
+
+- `outliers.csv`: Contains outlier records
+- `non_outliers.csv`: Contains clean data
+- `report.html`: A styled HTML report with stats and plots
 
